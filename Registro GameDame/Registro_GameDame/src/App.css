@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  color: #97A4A2;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #FBF8F4;
+}
+
+.app {
+  width: 400px;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #4B626C;
+  text-align: center;
+}
+
+.botao-seta {
+  color: #4B626C;
+  float: right;
+}
