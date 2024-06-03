@@ -5,7 +5,6 @@ import './App.css';
 function App() {
 
   return (
-    <div className='container'>
       <form className='Registro'>
         <h1>Registrar</h1>
         <div className="register-box">
@@ -13,7 +12,7 @@ function App() {
           <label>Nome do Usuário</label>
         </div>
         <div className="register-box">
-          <input type="email" name='' required />
+          <input type="text" name='' required />
           <label>E-mail</label>
         </div>
         <div className="register-box">
@@ -35,7 +34,6 @@ function App() {
           <a href="#" className="login">Fazer Login</a>
         </div>
       </form>
-    </div>
   )
 }
 
