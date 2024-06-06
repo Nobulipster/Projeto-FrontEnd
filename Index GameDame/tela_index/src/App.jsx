@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import './Navbar.css'
+import './Carrossel.css'
 
 function App() {
 
@@ -66,6 +68,38 @@ function App() {
         </div>
 
       </div>
+
+      <div className='index-releases'>
+
+        <div className='gallery-wrapper'>
+
+          <p>Lançamentos</p>
+          <div className='gallery'>
+            <div className='gallery-space'>
+             <img src="./src/img/bob.png" alt="game1" />
+             <div className='price-box'>R$ 299,00</div>
+            </div>
+            <div className='gallery-space'>
+             <img src="./src/img/mars.png" alt="game2" />
+             <div className='price-box'>R$ 299,00</div>
+            </div>
+            <div className='gallery-space'>
+             <img src="./src/img/spell.png" alt="game3" />
+             <div className='price-box'>R$ 299,00</div>
+            </div>
+            <div className='gallery-space'>
+             <img src="./src/img/kojima.png" alt="game4" />
+             <div className='price-box'>R$ 299,00</div>
+            </div>
+            <div className='gallery-space'>
+             <img src="./src/img/perish.png" alt="game5" />
+             <div className='price-box'>R$ 299,00</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   )
 }
