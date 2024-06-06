@@ -7,7 +7,7 @@ function App() {
       <nav className="navbar">
         <div className="logo">
           <a href="index">
-          <img src="./src/img/token.png" alt="Logo" width={100} height={100} />
+          <img src="./src/img/token.png" alt="Logo" width={125} height={125} />
           </a>
         </div>
         <ul className="nav-links-desktop">
