@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='biggerContain'>
       <nav className="navbar">
         <div className="logo">
           <img src="./src/img/token.png" alt="Logo" width={100} height={100} />
@@ -33,7 +33,7 @@ function App() {
           <div className='text-box'>
             <input type="text" name='' placeholder='Imagem' />
           </div>
-          <div className='text-box'>
+          <div className='button-box'>
             <button>Cadastrar</button>
           </div>
         </div>
@@ -42,7 +42,7 @@ function App() {
           <div className='text-box'>
             <input type="text" placeholder='Título do jogo ou ID' />
           </div>
-          <div className='text-box'>
+          <div className='button-boxR'>
             <button>Remover</button>
           </div>
         </div>
@@ -60,7 +60,7 @@ function App() {
           <div className='text-box'>
             <input type="text" name='' placeholder='Imagem' />
           </div>
-          <div className='text-box'>
+          <div className='button-box'>
             <button>Modificar</button>
           </div>
         </div>
