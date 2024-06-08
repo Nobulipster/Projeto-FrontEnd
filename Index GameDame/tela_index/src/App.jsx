@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import './Navbar.css'
-import './Carrossel.css'
+import './Grid.css'
 
 function App() {
 
   return (
-    <div className='container'>
+    <div className='tela'>
 
       <nav className="navbar">
 
@@ -31,42 +31,36 @@ function App() {
       
       </nav>
 
-      <div className='carrossel'>
-        <div className='slides'>
+      <div class="container">
 
-          {/* Radio Buttons */}
-          <input type="radio" name='radio-btn' id='radio1' />
-          <input type="radio" name='radio-btn' id='radio2' />
-          <input type="radio" name='radio-btn' id='radio3' />
-          {/* Fim Radio Buttons */}
+        <div className='seta-completa'>
+          <div className='seta'>/</div>
+          <div className='seta' id='seta2'>\</div>
+        </div>
 
-          {/* Slide Images */}
-          <div className='slide first'>
-            <img src="./src/img/GoW.png" alt='img 1' />
+        <div id="Cesaoo">
+          <div className='inter-Contain' id="c2">
+            <img src="./src/img/DaysGone.png" alt='img 2'/>
+              <div className='price-box'>R$ 169,90</div>
+              <div className='discount'>-15%</div>
           </div>
-          <div className='slide'>
-            <img src="./src/img/DaysGone.png" alt='img 2' />
-          </div>
-          <div className='slide'>
+          <div className='inter-Contain' id="c3">
             <img src="./src/img/Horizon.png" alt='img 3' />
+              <div className='price-box'>R$ 149,99</div>
+              <div className='discount'>-25%</div>
           </div>
-          {/* Fim Slide Images */}
-
-          {/* Navigation Auto */}
-          <div className='navigation-auto'>
-            <div className='auto-btn1'></div>
-            <div className='auto-btn2'></div>
-            <div className='auto-btn3'></div>
-          </div>
-
+        </div>
+        <div className='inter-Contain' id="c1">
+          <img src="./src/img/GoW.png" alt='img 1' />
+            <div className='price-box-main'>R$ 119,95</div>
+            <div className='discount-main'>-40%</div>
         </div>
 
-        <div className='manual-navigation'>
-          <label htmlFor="radio1" className='manual-btn'></label>
-          <label htmlFor="radio2" className='manual-btn'></label>
-          <label htmlFor="radio3" className='manual-btn'></label>
+        <div className='seta-completa'>
+          <div className='seta'>\</div>
+          <div className='seta'>/</div>
         </div>
-
+      
       </div>
 
       <div className='index-releases'>
