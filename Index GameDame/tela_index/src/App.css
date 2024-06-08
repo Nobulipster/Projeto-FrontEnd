@@ -7,7 +7,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.container {
+.tela {
   height: 100vh;
 }
 
@@ -55,9 +55,11 @@ html, body {
 
 .price-box {
   position: absolute;
-  top: 80%;
+  margin: 0 auto;
+  top: 85%;
   left: 5%;
   background-color: #FCFAFA;
   border-radius: 5px;
-  padding: 5px;
+  padding: 2px 8px;
+  font-size: 0.85rem;
 }
