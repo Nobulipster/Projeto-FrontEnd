@@ -3,7 +3,7 @@ import { NavigatorBar } from "../../components/components";
 
 function Adm() {
   return (
-    <div className="main">
+    <div className="allMain">
       <NavigatorBar />
       <div className="container">
         <div className="cadastrar">
