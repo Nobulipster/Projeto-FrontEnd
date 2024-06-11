@@ -1,19 +1,15 @@
 import "./style.css";
 
-function Login() {
+function Forgot() {
   return (
     <div className="master">
-      <div className="loginPrincipal">
+      <div className="backAccount">
         <div className="title">
-          <h1>Login</h1>
+          <h1>Recuperar Conta</h1>
         </div>
         <div className="login-box">
           <input type="text" required />
           <label>E-mail</label>
-        </div>
-        <div className="login-box">
-          <input type="password" required />
-          <label>Senha</label>
         </div>
         <div>
           <a href="#" className="seta">
@@ -26,8 +22,8 @@ function Login() {
           </a>
         </div>
         <div>
-          <a href="/forgot" className="forgotenPass">
-            Esqueceu a Senha?
+          <a href="/login" className="loginPass">
+            Fazer Login
           </a>
         </div>
       </div>
@@ -36,4 +32,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Forgot;
