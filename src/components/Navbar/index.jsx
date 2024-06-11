@@ -1,53 +1,37 @@
 import "./style.css";
-import { useNavigate } from "react-router-dom"
+import imgLogo from "../../assets/img/token.png";
 
 function Navbar() {
-
-  const navigate = useNavigate();
-
-  function handleRegister() {
-    navigate("/register");
-  }
-
   return (
     <nav className="navbar">
-      <div className="logo">
-        <a href="/index">
-          <img
-            src="../../assets/img/token.png"
-            alt="Logo"
-            width={100}
-            height={100}
-          />
-        </a>
-      </div>
-      <ul className="nav-links-desktop">
+      <a href="/index">
+        <img src={imgLogo} alt="Logo" width={100} height={100} />
+      </a>
+      <ul className="nav-links">
         <li>
-          <a href="releases">Lançamentos</a>
+          <h2>Lançamentos</h2>
         </li>
-        <p>|</p>
         <li>
-          <a href="popular">Populares</a>
+          <h2>Populares</h2>
         </li>
-        <p>|</p>
         <li>
-          <a href="genre">Gêneros</a>
+          <h2>Gêneros</h2>
         </li>
-        <p>|</p>
         <li>
-          <a href="promotions">Promoções</a>
+          <h2>Promoções</h2>
         </li>
-        <p>|</p>
-        <li>
-          <a href="account">Conta</a>
+        <li id="especialLine">
+          <h2>Conta</h2>
         </li>
       </ul>
-      <input type="text" name="" placeholder="" />
-      <a href="#" className="search">
-        🔍︎
-      </a>
+      <div className="barraProcura">
+        <input type="text" name="procurador" />
+        <div className="search">
+          <h3>🔍︎</h3>
+        </div>
+      </div>
     </nav>
   );
 }
 
-export default Navbar
+export default Navbar;
