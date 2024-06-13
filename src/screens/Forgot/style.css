@@ -1,97 +1,97 @@
 .backAccount {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-left: 2rem;
-    height: 100vh;
-  }
-  
-  .title {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .title h1 {
-    text-align: center;
-    font-size: 64px;
-    font-weight: 400;
-    color: #537280;
-  }
-  
-  .login-box {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  
-  .login-box input {
-    width: 100%;
-    padding: 8px 0;
-    outline: none;
-    border: 0;
-    border-radius: 5px;
-    background: #efefef;
-    border-bottom: 1px solid #efefef;
-    color: #4b626c;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-    box-shadow: 0px 4px 20px 0px #00000040;
-  }
-  
-  .login-box label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 8px 12px;
-    color: #97a4a2;
-    font-size: 1rem;
-    pointer-events: none;
-    transition: 0.5s;
-  }
-  
-  .login-box input:focus ~ label,
-  .login-box input:valid ~ label {
-    top: -2rem;
-    left: 0;
-    color: #537280;
-    font-size: 0.9rem;
-    font-weight: bold;
-  }
-  
-  .seta {
-    font-size: 2.5rem;
-    float: right;
-    text-decoration: none;
-    color: #4b626c;
-  }
-  
-  .createAccount {
-      font-size: 1.1rem;
-      font-weight: bold;
-      position: absolute;
-      text-decoration: none;
-      bottom: 5rem;
-      color: #97a4a2;
-  }
-  
-  .loginPass {
-      font-size: 1.1rem;
-      font-weight: bold;
-      position: absolute;
-      text-decoration: none;
-      bottom: 3rem;
-      color: #97a4a2;
-  }
-  
-  .ibage {
-    display: flex;
-    justify-content: center;
-    width: 220%;
-    background: url("../../assets/img/background.png");
-    background-position-y: -125px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 7rem;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  color: #537280;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px 0;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  background: #efefef;
+  border-bottom: 1px solid #efefef;
+  color: #4b626c;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 20px 0px #00000040;
+}
+
+.login-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 12px;
+  color: #97a4a2;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box input:focus ~ label,
+.login-box input:valid ~ label {
+  top: -2rem;
+  left: 0;
+  color: #537280;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.seta {
+  font-size: 2.5rem;
+  float: right;
+  text-decoration: none;
+  color: #4b626c;
+}
+
+.createAccount {
+  font-size: 1.1rem;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+  bottom: 5rem;
+  color: #97a4a2;
+}
+
+.loginPass {
+  font-size: 1.1rem;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+  bottom: 3rem;
+  color: #97a4a2;
+}
+
+.ibage {
+  display: flex;
+  justify-content: center;
+  width: 220%;
+  background: url("../../assets/img/background.png");
+  background-position-y: -125px;
+  background-repeat: no-repeat;
+}
