@@ -45,6 +45,7 @@
   padding: 3px;
   width: 131px;
   height: 95%;
+  cursor: pointer;
 }
 
 .price-box {
@@ -114,6 +115,7 @@
 
 .inter-Contain {
   position: relative;
+  cursor: pointer;
 }
 
 .inter-Contain .price-box {
@@ -165,6 +167,7 @@
   align-items: center;
   display: grid;
   grid-template-rows: 44px 50px;
+  cursor: pointer;
 }
 
 .seta {

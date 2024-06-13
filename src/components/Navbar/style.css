@@ -33,6 +33,10 @@
   cursor: pointer;
 }
 
+.nav-links h2:hover {
+  text-decoration: underline;
+}
+
 #especialLine {
   border-right: 0px;
 }

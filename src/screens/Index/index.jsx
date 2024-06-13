@@ -9,7 +9,6 @@ import imgSpell from '../../assets/img/spell.png'
 import imgKojima from '../../assets/img/kojima.png'
 import imgPerish from '../../assets/img/perish.png'
 
-
 function Index() {
   return (
     <div className="tela">
