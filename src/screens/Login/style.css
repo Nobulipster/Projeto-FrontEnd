@@ -1,8 +1,8 @@
 .loginPrincipal {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-left: 4rem;
+  width: 90%;
+  padding-left: 7rem;
   height: 100vh;
 }
 
