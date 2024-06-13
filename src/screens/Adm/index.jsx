@@ -3,9 +3,9 @@ import { NavigatorBar } from "../../components/components";
 
 function Adm() {
   return (
-    <div className="main">
+    <div className="allMain">
       <NavigatorBar />
-      <div className="container">
+      <div className="container-adm">
         <div className="cadastrar">
           <h2>Cadastrar Jogo</h2>
           <div className="text-box">
