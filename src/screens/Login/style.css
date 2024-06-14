@@ -1,8 +1,8 @@
 .loginPrincipal {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-left: 2rem;
+  width: 90%;
+  padding-left: 7rem;
   height: 100vh;
 }
 
@@ -70,21 +70,21 @@
 }
 
 .createAccount {
-    font-size: 1.1rem;
-    font-weight: bold;
-    position: absolute;
-    text-decoration: none;
-    bottom: 5rem;
-    color: #97a4a2;
+  font-size: 1.1rem;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+  bottom: 5rem;
+  color: #97a4a2;
 }
 
 .forgotenPass {
-    font-size: 1.1rem;
-    font-weight: bold;
-    position: absolute;
-    text-decoration: none;
-    bottom: 3rem;
-    color: #97a4a2;
+  font-size: 1.1rem;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+  bottom: 3rem;
+  color: #97a4a2;
 }
 
 .ibage {
@@ -93,4 +93,5 @@
   width: 220%;
   background: url("../../assets/img/background.png");
   background-position-y: -125px;
+  background-repeat: no-repeat;
 }

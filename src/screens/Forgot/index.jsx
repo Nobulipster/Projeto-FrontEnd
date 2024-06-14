@@ -12,7 +12,7 @@ function Forgot() {
           <label>E-mail</label>
         </div>
         <div>
-          <a href="#" className="seta">
+          <a href="/index" className="seta">
             →
           </a>
         </div>

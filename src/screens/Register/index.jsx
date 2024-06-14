@@ -29,7 +29,7 @@ function Register() {
           <label>Confirmar Senha</label>
         </div>
         <div>
-          <a href="#" className="seta">
+          <a href="/index" className="seta">
             →
           </a>
         </div>

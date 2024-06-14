@@ -13,9 +13,6 @@
 }
 
 .index-releases p {
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   margin-bottom: 10px;
   margin-left: 150px;
   margin-top: 10px;
@@ -45,6 +42,7 @@
   padding: 3px;
   width: 131px;
   height: 95%;
+  cursor: pointer;
 }
 
 .price-box {
@@ -114,6 +112,7 @@
 
 .inter-Contain {
   position: relative;
+  cursor: pointer;
 }
 
 .inter-Contain .price-box {
@@ -165,6 +164,7 @@
   align-items: center;
   display: grid;
   grid-template-rows: 44px 50px;
+  cursor: pointer;
 }
 
 .seta {
@@ -173,11 +173,41 @@
 }
 
 #seta1 {
-    position: relative;
-    padding-right: 1px;
+  position: relative;
+  padding-right: 1px;
 }
 
 #seta2 {
-    position: relative;
-    padding-left: 1px;
+  position: relative;
+  padding-left: 1px;
+}
+
+@media (max-width: 1540px) {
+  .index-releases {
+    height: calc(100% - 500px);
+  }
+}
+
+@media (max-width: 1224px) {
+  .index-releases {
+    height: calc(100% - 430px);
+  }
+  .gallery {
+    gap: 7rem;
+  }
+  .index-releases p {
+    margin: 0.7rem;
+    margin-left: 9%;
+    font-size: 20px;
+  }
+  .container {
+    width: 800px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1540px) {
+  .index-releases {
+    height: calc(100% - 500px);
+  }
 }

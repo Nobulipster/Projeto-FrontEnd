@@ -11,15 +11,19 @@ function Navbar() {
         <li>
           <h2>Lançamentos</h2>
         </li>
+        <h3>|</h3>
         <li>
           <h2>Populares</h2>
         </li>
+        <h3>|</h3>
         <li>
           <h2>Gêneros</h2>
         </li>
+        <h3>|</h3>
         <li>
           <h2>Promoções</h2>
         </li>
+        <h3>|</h3>
         <li id="especialLine">
           <h2>Conta</h2>
         </li>
