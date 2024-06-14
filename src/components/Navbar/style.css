@@ -1,8 +1,12 @@
 .navbar {
   background-color: #fbf6f0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 100px auto auto;
+  grid-template-rows: 100%;
   max-height: 100px;
+  width: 100%;
   align-items: center;
+  justify-content: space-between;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
@@ -11,30 +15,35 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   align-items: center;
-  padding: 0 3rem;
   justify-content: space-between;
 }
 
 .nav-links h2 {
   color: #4b626c;
-  font-size: 32px;
+  font-size: 2rem;
   font-family: Montserrat;
   font-weight: 300;
-  height: 39px;
+  height: 3rem;
   text-align: center;
   transition: all 0.5s;
 }
 
+.nav-links h2:hover {
+  text-decoration: underline;
+}
+
 .nav-links li {
-  padding: 0px 1.5rem;
-  border-right: solid #4b626c;
+ padding: 0px 2rem;
   cursor: pointer;
 }
 
-.nav-links h2:hover {
-  text-decoration: underline;
+.nav-links h3 {
+  color: #4b626c;
+  font-size: 3rem;
+  font-weight: 300;
+  height: 4.5rem;
 }
 
 #especialLine {
@@ -45,14 +54,14 @@
   height: 100px;
   align-items: center;
   display: flex;
-  padding: 0px 30px;
+  padding: 3rem;
 }
 
 .barraProcura input {
   background-color: #97a4a273;
   border: none;
   height: 40px;
-  width: 100%;
+  width: 165px;
   border-radius: 15px;
   padding-inline: 30px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -62,4 +71,37 @@
   position: absolute;
   padding: 0.5%;
   cursor: pointer;
+}
+
+
+@media (max-width: 1246px) {
+  html {
+    font-size: 60%;
+  }
+  .navbar {
+    max-height: 80px;
+  }
+  .navbar img {
+    height: 80px;
+    width: 80px;
+  }
+  .barraProcura {
+    width: 90%;
+    height: 80px;
+  }
+  .barraProcura input {
+    width: 115px;
+  }
+}
+
+ @media (max-width: 1540px) {
+  .navbar {
+    max-width: 100%;
+  }
+  .barraProcura {
+    width: 80%;
+  }
+  .barraProcura input {
+    width: 115px;
+  } 
 }
