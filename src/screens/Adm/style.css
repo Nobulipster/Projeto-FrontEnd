@@ -30,7 +30,7 @@ body {
   width: 80%;
   padding: 14px 0;
   outline: none;
-  border: 0;
+
   border-radius: 5px;
   background: #efefef;
   border-bottom: 1px solid #efefef;
@@ -121,4 +121,10 @@ body {
   background: #efefef;
   font-size: 1.4rem;
   cursor: pointer;
+}
+
+@media (max-width: 1246px) {
+  .container-adm {
+    height: calc(100% - 80px);
+  }
 }

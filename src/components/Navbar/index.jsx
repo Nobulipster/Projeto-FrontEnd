@@ -25,7 +25,9 @@ function Navbar() {
         </li>
         <h3>|</h3>
         <li id="especialLine">
-          <h2>Conta</h2>
+          <a href="/perfil">
+            <h2>Conta</h2>
+          </a>
         </li>
       </ul>
       <div className="barraProcura">
