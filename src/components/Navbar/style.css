@@ -46,8 +46,9 @@
   height: 4.5rem;
 }
 
-#especialLine {
-  border-right: 0px;
+#especialLine a {
+  color: #4b626c;
+  text-decoration: none;
 }
 
 .barraProcura {
@@ -61,7 +62,7 @@
   background-color: #97a4a273;
   border: none;
   height: 40px;
-  width: 165px;
+  width: 185px;
   border-radius: 15px;
   padding-inline: 30px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -102,6 +103,6 @@
     width: 80%;
   }
   .barraProcura input {
-    width: 115px;
+    width: 145px;
   } 
 }

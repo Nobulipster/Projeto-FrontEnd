@@ -1,5 +1,4 @@
 import "./style.css";
-import imgBack from "../../assets/img/background.png"
 
 function Register() {
   return (

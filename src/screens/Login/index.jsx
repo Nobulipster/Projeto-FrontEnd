@@ -7,11 +7,11 @@ function Login() {
         <div className="title">
           <h1>Login</h1>
         </div>
-        <div className="login-box">
+        <div className="register-box">
           <input type="text" required />
           <label>E-mail</label>
         </div>
-        <div className="login-box">
+        <div className="register-box">
           <input type="password" required />
           <label>Senha</label>
         </div>

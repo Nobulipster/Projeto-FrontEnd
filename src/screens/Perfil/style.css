@@ -1,0 +1,121 @@
+.cartMain {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #FBF6F0;
+}
+
+.subMain {
+    display: flex;
+}
+
+.information {
+    display: flex;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.dataBase {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.dataBase h1 {
+    font-size: 48px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.dataBase h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.dataBase button {
+    background-color: #4B626C;
+    color: #FBF6F0;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 43%;
+    margin-bottom: 25px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dataBase img {
+    width: 12%;
+}
+
+#b2 {
+    opacity: 40%;
+}
+
+.cartMain p {
+    font-size: 30px;
+}
+
+#b2 a {
+    text-decoration: none;
+    color: #FBF6F0;
+}
+
+/* Biblioteca de Jogo */
+
+.biblio {
+    background-color: #4B626C;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 86.3vh;
+}
+
+.titleBiblio {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 30%;
+}
+
+.titleBiblio h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 3rem;
+    color: #FBF6F0;
+}
+
+.gridBiblio {
+    display: flex;
+    height: 90vh;
+}
+
+.frameBiblio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.frameBiblio p {
+    font-size: 18px;
+    margin-top: 7px;
+    color: #FBF6F0;
+}
+
+.frameBiblio img {
+    width: 45%;
+    height: 60%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}

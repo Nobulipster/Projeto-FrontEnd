@@ -7,12 +7,12 @@ function Forgot() {
         <div className="title">
           <h1>Recuperar Conta</h1>
         </div>
-        <div className="login-box">
+        <div className="register-box">
           <input type="text" required />
           <label>E-mail</label>
         </div>
         <div>
-          <a href="/index" className="seta">
+          <a href="/login" className="seta">
             →
           </a>
         </div>
